@@ -18,8 +18,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '29313838'))
-API_HASH = environ.get('API_HASH', '52be3e7144baa0321c824e4fd7b89405')
+API_ID = int(environ.get('API_ID', '26425410'))
+API_HASH = environ.get('API_HASH', '5f2e2c039669118ced52f5b0ba16ac11')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
@@ -48,7 +48,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://m0921594:Rohit44@cluster0.yvemdgt.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Rohit11:Rohit11@cluster0.1rf8a.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -66,7 +66,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/born4movies7')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/b4b7filedownload/10')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001554660977'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002375073533'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'born4movies7')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
